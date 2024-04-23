@@ -1,0 +1,94 @@
+
+.video-container-evangelion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px; 
+  }
+  
+.video-container-mikeinel {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.video-container-jjk {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+/* Accordion section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
+  }
+  
+  .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; 
+}
+
+.content {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.video-container-evangelion,
+.video-container-mikeinel,
+.video-container-jjk {
+    flex: 1;
+}
+
+  .accordion-section h2 {
+    font-size: 2.5em; 
+  }
+  
+  .accordion-container {
+    margin-top: 20px;
+  }
+  
+  .accordion-item {
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .accordion-button {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .active .accordion-content {
+    display: block;
+  }
+
+  .Videos-tutorials {
+    background-color: #be94bc;
+  } 
+
+  .Videos-tutorials h2 {
+    color: #f4f4f4;
+  }
+
+  
