@@ -1,173 +1,171 @@
 
-  .hero {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: whitesmoke;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Assets/drawingonpaper.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative; 
-  }
-  
-  .hero::before {
-    content: attr(aria-label);
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-
-
-  .hero h1 {
-    font-size: 2.5em;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-  }
-  
-  .hero h2 {
-    font-size: 1.5em; 
-  }
-
-
-  .introduction {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    text-align: center;
-  }
-  
- 
-  
-  .introduction p {
-    font-size: 1,2em; 
-    padding-top: 50px;
-  }
-
-  /* Footer section */
-.footer-container {
-    background-color: #ebebeb;
-    color: #585858;
-    padding: 20px 0;
-  }
-  
-  .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.2em;
-  }
-
-
-  .Inspiration {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .Inspiration h2 {
-    font-size: 2.2em; 
-  }
-
-  .Inspiration h3 {
-    font-size: 1.8em;
-    color:rgb(232, 149, 255);
-  }
-  
-  .Inspiration p {
-    font-size: 1.2em; 
-    padding-left: 5%;
-    padding-right: 5%;
-    line-height: 1.75;
-  }
-
-  .accordion-section {
-    background-color: #585858;
-    width: 100%;
+/* Hero section */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Assets/drawingonpaper.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
 }
 
+.hero::before {
+  content: attr(aria-label);
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.hero h2 {
+  font-size: 1.5em;
+}
+
+/* Introduction section */
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.introduction p {
+  font-size: 1.2em;
+  padding-top: 50px;
+}
+
+/* Footer section */
+.footer-container {
+  background-color: #ebebeb;
+  color: #585858;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+/* Inspiration section */
+.Inspiration {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Inspiration h2 {
+  font-size: 2.2em;
+}
+
+.Inspiration h3 {
+  font-size: 1.8em;
+  color: rgb(232, 149, 255);
+}
+
+.Inspiration p {
+  font-size: 1.2em;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.75;
+}
+
+/* Accordion section */
+.accordion-section {
+  background-color: #585858;
+  width: 100%;
+}
+
+/* Navbar section */
 .navbar {
-    background-color: #333;
-    padding: 20px 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navbar-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-item {
-    margin-right: 20px;
-    position: relative; 
-  }
-  
-  .nav-link {
-    color: #fff;
-    text-decoration: none;
-    padding: 15px 20px;
-    transition: background-color 0.3s;
-  }
-  
-  .nav-link:hover {
-    background-color: #ae7ab5;
-  }
-  
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: calc(100% + 5px);
-    left: 0;
-    background-color: #333;
-    padding: 0;
-    list-style: none; 
-  }
-  
-  .dropdown-menu li {
-    margin: 0;
-  }
-  
-  .dropdown-link {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-  }
+  background-color: #333;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
 
-  .dropdown-link:hover {
-    background-color: #ad6daa;
-  }
-  .nav-item:hover .dropdown-menu {
-    display: block; 
-  }
-  
-  
-  
-  
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  margin-right: 20px;
+  position: relative;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #ae7ab5;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: #333;
+  padding: 0;
+  list-style: none;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.dropdown-link:hover {
+  background-color: #ad6daa;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Why section */
 .why p {
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    line-height: 1.5;
-    margin-bottom: 40px;
-
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.5;
+  margin-bottom: 40px;
 }
